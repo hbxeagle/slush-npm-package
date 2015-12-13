@@ -9,13 +9,13 @@
   },
   "license": "MIT",
   "keywords": [],
-  "github": "https://github.com/maratfakhreev/marionette-animated-region",
+  "github": "https://github.com/<%= userName %>/<%= appName %>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/<%= userName %>/<%= appNameSlug %>.git"
+    "url": "git://github.com/<%= userName %>/<%= appName %>.git"
   },
   "bugs": {
-    "url": "https://github.com/<%= userName %>/<%= appNameSlug %>/issues"
+    "url": "https://github.com/<%= userName %>/<%= appName %>/issues"
   },
   "scripts": {
     "compile": "babel --presets es2015 -d lib/ src/",

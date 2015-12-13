@@ -10,6 +10,12 @@ Short description.
 npm install <%= appName %>
 ```
 
+### How to compile package:
+
+```bash
+npm run compile
+```
+
 **Browser:**
 ```javascript
 <script>...</script>
