@@ -1,7 +1,7 @@
 {
   "name": "slush-npm-package",
   "description": "A Slush generator for Node.js npm package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/maratfakhreev/slush-npm-package",
   "author": {
     "name": "Marat Fakhreev",
@@ -27,7 +27,9 @@
     "npm",
     "package",
     "base",
-    "template"
+    "template",
+    "es6",
+    "ecmascript6"
   ],
   "dependencies": {
     "slush": ">=1.0.0",

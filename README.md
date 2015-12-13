@@ -1,6 +1,8 @@
 # Slush npm package generator
 
-> A Slush generator for Node.js npm package
+> A Slush generator for Node.js ES6 npm package
+
+Includes ES2015 babel preset and babel polyfill, console and browser test invironment (chai, mocha, phantomjs)
 
 ## Getting Started
 
