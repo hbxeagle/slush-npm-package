@@ -1,0 +1,35 @@
+{
+  "name": "<%= appNameSlug %>",
+  "description": "<%= appDescription %>",
+  "version": "<%= appVersion %>",
+  "main": "lib/<%= appNameSlug %>.js",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "github": "https://github.com/maratfakhreev/marionette-animated-region",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= userName %>/<%= appNameSlug %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= userName %>/<%= appNameSlug %>/issues"
+  },
+  "scripts": {
+    "compile": "babel --presets es2015 -d lib/ src/",
+    "pretest": "npm run compile",
+    "test": "mocha-phantomjs test/index.html",
+    "prepublish": "npm run compile"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-polyfill": "^6.3.13",
+    "babel-preset-es2015": "^6.1.18",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "mocha-phantomjs": "^4.0.1"
+  }
+}

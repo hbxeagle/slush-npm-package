@@ -1,0 +1,37 @@
+{
+  "name": "slush-npm-package",
+  "description": "A Slush generator for Node.js npm package",
+  "version": "1.0.0",
+  "homepage": "https://github.com/maratfakhreev/slush-npm-package",
+  "author": {
+    "name": "Marat Fakhreev",
+    "email": "marat.fakhreev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maratfakhreev/slush-npm-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maratfakhreev/slush-npm-package/issues"
+  },
+  "license": "MIT",
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "dependencies": {
+    "slush": ">=1.0.0",
+    "gulp": "^3.6.2",
+    "gulp-template": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-conflict": "^0.1.1",
+    "gulp-rename": "^1.2.0",
+    "underscore.string": "^2.3.3",
+    "inquirer": "^0.8.0",
+    "iniparser": "^1.0.5"
+  },
+  "keywords": [
+    "slushgenerator"
+  ]
+}
