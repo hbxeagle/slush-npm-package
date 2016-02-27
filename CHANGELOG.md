@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 1.1.0
 - Upgrade dependencies for package and template
 
 ## 1.0.2
