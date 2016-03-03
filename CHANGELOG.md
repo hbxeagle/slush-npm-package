@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 1.1.1
 - Use 0.0.1 version for template as default
 - Upgrade dependencies for template
 
