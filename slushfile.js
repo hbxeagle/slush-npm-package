@@ -52,7 +52,7 @@ gulp.task('default', function (done) {
   }, {
     name: 'appVersion',
     message: 'What is the version of your project?',
-    default: '1.0.0'
+    default: '0.0.1'
   }, {
     name: 'authorName',
     message: 'What is the author name?',
